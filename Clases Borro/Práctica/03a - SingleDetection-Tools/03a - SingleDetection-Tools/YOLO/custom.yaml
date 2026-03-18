@@ -1,0 +1,7 @@
+train: /content/sample_data/Data/Data/Train
+val: /content/sample_data/Data/Data/Valid
+test: /content/sample_data/Data/Data/Test
+
+nc: 6
+
+names: ['allen-keys', 'cutter', 'drill-bit', 'screwdriver', 'screws-box', 'tongs']

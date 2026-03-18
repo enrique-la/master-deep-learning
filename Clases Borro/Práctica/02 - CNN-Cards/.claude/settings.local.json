@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(\"c:\\Users\\enriq\\Desktop\\Master\\Deep Learning\\Clases Borro\\Práctica\\02 - CNN-Cards\\venv_dl\\Scripts\\python.exe\" -m pip:*)",
+      "Bash(\"c:\\Users\\enriq\\Desktop\\Master\\Deep Learning\\Clases Borro\\Práctica\\02 - CNN-Cards\\venv_dl\\Scripts\\python.exe\" -m pip show tensorflow tensorflow-intel)",
+      "Bash(\"c:\\Users\\enriq\\Desktop\\Master\\Deep Learning\\Clases Borro\\Práctica\\02 - CNN-Cards\\venv_dl\\Scripts\\python.exe\" -m pip install tensorflow-directml)",
+      "Bash(\"c:\\Users\\enriq\\Desktop\\Master\\Deep Learning\\Clases Borro\\Práctica\\02 - CNN-Cards\\venv_dl\\Scripts\\python.exe\" -m pip install \"tensorflow==2.10.1\")",
+      "Bash(\"c:\\Users\\enriq\\Desktop\\Master\\Deep Learning\\Clases Borro\\Práctica\\02 - CNN-Cards\\venv_dl\\Scripts\\python.exe\" -m pip install:*)",
+      "Bash(\"c:\\Users\\enriq\\Desktop\\Master\\Deep Learning\\Clases Borro\\Práctica\\02 - CNN-Cards\\venv_dl\\Scripts\\python.exe\" -m pip install vit-keras opencv-python scipy matplotlib pandas pillow jupyter notebook ipykernel)",
+      "Bash(py --list:*)",
+      "Bash(\"c:\\Users\\enriq\\Desktop\\Master\\Deep Learning\\Clases Borro\\Práctica\\02 - CNN-Cards\\venv_dl\\Scripts\\python.exe\" -m ipykernel install --user --name=venv_dl --display-name=\"Python (DL)\")",
+      "Bash(\"c:\\Users\\enriq\\Desktop\\Master\\Deep Learning\\Clases Borro\\Práctica\\02 - CNN-Cards\\venv_dl\\Scripts\\python.exe\" -c \"import tensorflow as tf; import vit_keras; print(''✓ TensorFlow:'', tf.__version__); print(''✓ Keras:'', tf.keras.__version__); print(''✓ vit-keras importado correctamente'')\")",
+      "Bash(\"c:\\Users\\enriq\\Desktop\\Master\\Deep Learning\\Clases Borro\\Práctica\\02 - CNN-Cards\\venv_dl\\Scripts\\python.exe\" -c \"import tensorflow as tf; import vit_keras; print(''TensorFlow:'', tf.__version__); print(''Keras:'', tf.keras.__version__); print(''vit-keras: OK'')\")",
+      "Bash(\"c:\\Users\\enriq\\Desktop\\Master\\Deep Learning\\Clases Borro\\Práctica\\02 - CNN-Cards\\venv_dl\\Scripts\\python.exe\" -m pip show typing-extensions)",
+      "Bash(\"c:\\Users\\enriq\\Desktop\\Master\\Deep Learning\\Clases Borro\\Práctica\\02 - CNN-Cards\\venv_dl\\Scripts\\python.exe\" -c \"from typing_extensions import TypeAliasType; print(''TypeAliasType disponible'')\")",
+      "Bash(\"c:\\Users\\enriq\\Desktop\\Master\\Deep Learning\\Clases Borro\\Práctica\\02 - CNN-Cards\\venv_dl\\Scripts\\python.exe\" -m pip install --force-reinstall ipykernel)",
+      "Bash(\"c:\\Users\\enriq\\Desktop\\Master\\Deep Learning\\Clases Borro\\Práctica\\02 - CNN-Cards\\venv_dl\\Scripts\\python.exe\" -m jupyter kernelspec uninstall venv_dl -y)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

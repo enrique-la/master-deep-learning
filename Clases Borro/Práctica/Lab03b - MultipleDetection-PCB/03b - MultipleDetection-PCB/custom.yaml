@@ -1,0 +1,6 @@
+train: /content/sample_data/train
+val: /content/sample_data/val
+
+nc: 6
+
+names: ['1-open', '2-short', '3-mousebite', '4-spur', '5-copper', '6-pin-hole']
